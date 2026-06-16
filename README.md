@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, viewport-fit=cover">
-    <title>字卡传讯 | 完整功能版</title>
+    <title>微信 · 越宁 | 完整功能版</title>
     <style>
         :root {
             --theme-bg: #fef6f9; --theme-header: #fff0f3; --theme-bubble-user: #ffb7c5;
@@ -2834,7 +2834,7 @@
         initMusic();
         
         applySettings();
-        addMessage('text', '🐣嗨 今天想聊什么', false);
+        addMessage('text', '🐣 嗨 今天想聊什么', false);
         setTimeout(()=>addMessage('text', '🌸 长按消息可引用或撤回自己的消息', false), 1500);
         
         scheduleReplyCheck();
