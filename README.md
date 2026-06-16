@@ -2834,7 +2834,7 @@
         initMusic();
         
         applySettings();
-        addMessage('text', '🐣 嗨 今天想聊什么', false);
+        addMessage('text', '🐣嗨 今天想聊什么', false);
         setTimeout(()=>addMessage('text', '🌸 长按消息可引用或撤回自己的消息', false), 1500);
         
         scheduleReplyCheck();
